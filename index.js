@@ -131,9 +131,9 @@ client.connect((err) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello from the other side');
+  res.send('Wellcome backend');
 });
 
 app.listen(PORT, () => {
-  console.log('Listening.....');
+  console.log('Starting.....');
 });
